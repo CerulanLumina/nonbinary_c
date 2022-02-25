@@ -1,6 +1,6 @@
 /target
-Cargo.lock
 c_test/build/
+c_test/.idea/
 c_test/cmake-build-debug/
 headers/
 

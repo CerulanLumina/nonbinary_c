@@ -1,2 +1,5 @@
 language = "C"
 include_guard = "nonbinary_h"
+
+[parse]
+exclude = ["ERROR_HANDLER"]

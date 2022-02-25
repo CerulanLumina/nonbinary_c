@@ -7,12 +7,15 @@ edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "staticlib"]
+name = "nonbinary"
 
 [profile.dev]
 panic = "abort"
 [profile.release]
 panic = "abort"
 
-[dependencies]
+[features]
+dumb = []
 
+[dependencies]
 nonbinary = {path = "../nonbinary"}

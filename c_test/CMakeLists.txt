@@ -10,7 +10,7 @@ add_executable(nonbinary_abi_test_static
 add_executable(nonbinary_abi_test_shared
         call_rust.c)
 
-target_link_directories(nonbinary_abi_test_static PRIVATE ../../nonbinary/target/release)
-target_link_directories(nonbinary_abi_test_shared PRIVATE ../../nonbinary/target/release)
+target_link_directories(nonbinary_abi_test_static PRIVATE ../target/release)
+target_link_directories(nonbinary_abi_test_shared PRIVATE ../target/release)
 target_link_libraries(nonbinary_abi_test_static PRIVATE nonbinary.a)
 target_link_libraries(nonbinary_abi_test_shared PRIVATE nonbinary)
